@@ -28,3 +28,9 @@ Cleans any existing target folder and pacakges, and redownloads them.
 ### Run application in embedded localhost server
 `./mvnw spring-boot:run` or `mvn.cmd spring-boot:run`
 
+
+# Questions
+- What is an endpoint?
+    - In a controller, you need to specify the endpoint. Tells Spring that it needs to enter that piece of code. 
+    - Without it, the function can be used as a function by other functions in the same class.
+    - The are essentailly the routes. And when they are compiled, all endpoints are collated. 
